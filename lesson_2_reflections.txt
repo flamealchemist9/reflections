@@ -1,0 +1,7 @@
+1) What happends when you initialize a repository? Why do you need to do it?
+
+We use git init to initialize a repository, when we do it, git creates a .git folder in the folder we used git init. This folder is used to store the metadata that is uses to track our files. We need to do it because if we don't it will be just another directory and git will not track the files in the folder.
+
+2) How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Staging area is different from the working directory and the repository as it is virtual, it keeps track of the changes we wish to make virtually till we are ready to make the changes, ie, commit them. It keeps us from making mistakes like accidentally making commits and it also helps us commit selected files. 
