@@ -4,4 +4,8 @@ We use git init to initialize a repository, when we do it, git creates a .git fo
 
 2) How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-Staging area is different from the working directory and the repository as it is virtual, it keeps track of the changes we wish to make virtually till we are ready to make the changes, ie, commit them. It keeps us from making mistakes like accidentally making commits and it also helps us commit selected files. 
+Staging area is different from the working directory and the repository as it is virtual, it keeps track of the changes we wish to make virtually till we are ready to make the changes, ie, commit them. It keeps us from making mistakes like accidentally making commits and it also helps us commit selected files.
+
+3) How can you use the staging area to make sure you have one commit per logical change?
+
+We can use the staging area to make sure we have one commit per logical change by using git diff to compare our working directory with the most recent commit's image that is on the staging area as working directory doesn't have a commit ID,this also enables us to cross check our work incase we forget the changes we made. However, once we git add the files to the staging area using git diff will give different results, the added file wont be shown as a change since the staging area is updated. To compare the added file with the most recent commit we can run git diff --staged. Therefore, we can see that staging area helps us in making sure we have one commit per logical change. 
