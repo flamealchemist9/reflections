@@ -17,4 +17,7 @@ Branches would be helpful when we want to take more than one approach with the s
 5) How do the diagrams help you visualize the branch structure?
 
 Diagrams gave me a clear view about where I was, how I got there, how stay where I am, how to get where I want, how to keep my commits from getting lost and how to use branches efficienty. This is after I could visualize the branch structure.
- 
+
+6) What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branches helps us to join the changes made in two separate branches of the same project, that is, we can say, for example, use two different branches to fix a bug and add a feature respectively and then merge the changes to have a feature-full and a bug-less code. We represent it in the diagram the way we do because it is how it's drawn. haha. No, because we have two branches joining at one commit, the merge branch commit. 
