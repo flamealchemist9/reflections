@@ -8,4 +8,8 @@ Staging area is different from the working directory and the repository as it is
 
 3) How can you use the staging area to make sure you have one commit per logical change?
 
-We can use the staging area to make sure we have one commit per logical change by using git diff to compare our working directory with the most recent commit's image that is on the staging area as working directory doesn't have a commit ID,this also enables us to cross check our work incase we forget the changes we made. However, once we git add the files to the staging area using git diff will give different results, the added file wont be shown as a change since the staging area is updated. To compare the added file with the most recent commit we can run git diff --staged. Therefore, we can see that staging area helps us in making sure we have one commit per logical change. 
+We can use the staging area to make sure we have one commit per logical change by using git diff to compare our working directory with the most recent commit's image that is on the staging area as working directory doesn't have a commit ID,this also enables us to cross check our work incase we forget the changes we made. However, once we git add the files to the staging area using git diff will give different results, the added file wont be shown as a change since the staging area is updated. To compare the added file with the most recent commit we can run git diff --staged. Therefore, we can see that staging area helps us in making sure we have one commit per logical change.
+
+4) What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches would be helpful when we want to take more than one approach with the same project but also pursue and keep track of them as well. 
