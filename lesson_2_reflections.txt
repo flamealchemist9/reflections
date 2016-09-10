@@ -20,4 +20,8 @@ Diagrams gave me a clear view about where I was, how I got there, how stay where
 
 6) What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
-Merging two branches helps us to join the changes made in two separate branches of the same project, that is, we can say, for example, use two different branches to fix a bug and add a feature respectively and then merge the changes to have a feature-full and a bug-less code. We represent it in the diagram the way we do because it is how it's drawn. haha. No, because we have two branches joining at one commit, the merge branch commit. 
+Merging two branches helps us to join the changes made in two separate branches of the same project, that is, we can say, for example, use two different branches to fix a bug and add a feature respectively and then merge the changes to have a feature-full and a bug-less code. We represent it in the diagram the way we do because it is how it's drawn. haha. No, because we have two branches joining at one commit, the merge branch commit.
+
+7) What are the pros and cons of gits automatic merging vs always doing merges manually?
+
+Automatic merging saves time, it becomes invaluable as the project scales up. Git basically merges two branches by adding any new content from both the branches which wasn't there in the parent when the branches split. Now any content that was originally there and has been modified will ask you to manually check, this helps because we would have to review and pick best changes. That is git merges the obvious stuff and leaves the more complicated changes for us to handle. This is better than manual merging as it saves time and still let's the code be efficient.
