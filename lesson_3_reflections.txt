@@ -15,3 +15,8 @@ Branches are used to create working experimental changes from the main branch, t
 The benefits are numerous, 
 -> We can compare the last known state and our working directory to see our local progress. 
 -> We can merge local work and remote successfully incase the remote directory on github has been modified with additional commits not present on our local machine.
+
+5) How would you collaborate without using git or github? What would be easier, and what would be harder?
+
+I would divide the work up into modules and have different people work on different modules. We'd then merge out work together. However, we'd document some guidelines and standards to follow so we don't end up with incompatible modules.
+Without git, we'd have to save every version of the file that is significant. It would be a little difficult to work without git. It would be easier in a few ways like we won't have to keep merging changes as we'd work on logically different modules.
