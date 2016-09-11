@@ -9,3 +9,9 @@ I wouldn't want git to automatically keep me up-to-date as I would be using my l
 3) Describe the difference between forks, clones and branches. When do you use one instead of the other?
 
 Branches are used to create working experimental changes from the main branch, they are created inside our repositories. Cloning is used to make a replica of a repository on our local machine from another place on the same machine or GitHub as well. Fork is when we clone a GitHub repository from another account into our account, This is a github only term and it's used to attribute the project the original creator and it's easier than to clone and add a remote and then push and then let others clone it again.
+
+4) What is thet benefit of having a copy of the last known state of the remote stored locally?
+
+The benefits are numerous, 
+-> We can compare the last known state and our working directory to see our local progress. 
+-> We can merge local work and remote successfully incase the remote directory on github has been modified with additional commits not present on our local machine.
